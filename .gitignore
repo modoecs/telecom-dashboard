@@ -13,4 +13,6 @@ frontend/dist/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.dbgit add .gitignore
+git commit -m "remove env and pycache from tracking"
+git push

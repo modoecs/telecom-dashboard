@@ -2,10 +2,11 @@
 backend/.env
 backend/db.sqlite3
 
-# Python cache
+# Python
 **/__pycache__/
-**/*.pyc
 *.pyc
+backend/venv/
+backend/staticfiles/
 
 # Node
 frontend/node_modules/
@@ -13,6 +14,4 @@ frontend/dist/
 
 # OS
 .DS_Store
-Thumbs.dbgit add .gitignore
-git commit -m "remove env and pycache from tracking"
-git push
+Thumbs.db
